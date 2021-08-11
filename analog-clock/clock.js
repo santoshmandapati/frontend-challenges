@@ -9,8 +9,6 @@
             const minutes = date.getMinutes() * 6;
             const hours = (date.getHours() * 30) + date.getMinutes() / 2;
     
-            console.log();
-
             secondDial.style.transform = `rotate(${seconds}deg)`;
             minuteDial.style.transform = `rotate(${minutes}deg)`;
             hourDial.style.transform = `rotate(${hours}deg)`;
